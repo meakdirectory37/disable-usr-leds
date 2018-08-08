@@ -1,0 +1,7 @@
+[Unit]
+Description=turn off usr leds
+[Service]
+Type=simple
+ExecStart=/usr/bin/turn-off-usr-leds
+[Install]
+WantedBy=multi-user.target.wants
